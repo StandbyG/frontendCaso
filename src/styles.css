@@ -1,0 +1,131 @@
+.fast {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#themecolors .selector,
+.cursor {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+#google-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-line .mat-form-field-wrapper {
+  padding-bottom: 0px !important;
+}
+.no-line .mat-form-field {
+  line-height: 20px !important;
+}
+
+.img-avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.w75 {
+  width: 75px;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 30px;
+}
+
+.oculto {
+  display: none;
+}
+
+.fondo-modal-imagen {
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* 
+tr.mat-row {
+  height: 0px !important;
+} */
+
+tr.mat-row {
+  height: 0px !important;
+}
+
+tr.mat-header-row {
+  height: 34px !important;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+tr.mat-header-row th {
+  color: black !important;
+  font-family: Roboto !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.mat-row.hovered {
+  background: #eee;
+}
+
+.mat-row.highlighted {
+  background: #dedbdb;
+}
+
+.mat-menu-content:not(:empty) {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.mat-pseudo-checkbox-checked,
+.mat-pseudo-checkbox-indeterminate,
+.mat-accent .mat-pseudo-checkbox-checked,
+.mat-accent .mat-pseudo-checkbox-indeterminate {
+  background: #2196f3 !important;
+}
+
+#dateWithSearch .mat-form-field-wrapper {
+  padding-bottom: 0px !important;
+}
+#dateWithSearch .mat-form-field-underline{
+  position: initial !important;
+}

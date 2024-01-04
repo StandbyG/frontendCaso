@@ -1,0 +1,67 @@
+section {
+    display: table;
+}
+
+.example-button-row {
+    display: table-cell;
+    width: 390px;
+}
+
+.example-button-row .mat-button-base {
+    margin: 58px 8px 8px 0;
+}
+
+.example-button-row{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.spinner{
+    display: inline-block;
+    margin-top:60px;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 518px){
+    .example-button-row{
+        margin-left: -3rem;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .example-button-row{
+        margin-left: -33%; 
+    }
+}
+
+@media screen and (max-width: 400px){
+    .example-button-row{
+        margin-left: -9rem;
+    }
+
+}
+
+@media screen and (max-width: 386px){
+    .example-button-row{
+        margin-top: -1rem;
+    }
+
+}
+
+@media screen and (max-width: 338px){
+    .example-button-row{
+        width: 100%;
+        margin-left: 3%;
+        margin-right:3%;
+        margin-top:-1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 274px){
+    .example-button-row{
+        margin-top:-3rem;
+    }
+
+}

@@ -1,0 +1,27 @@
+<aside class="left-sidebar">
+    <div class="scroll-sidebar">
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <ng-container *ngFor="let item of sidebarService.menu">
+                    <li *ngIf="item.title">
+                        <a class="has-arrow waves-effect waves-dark" href="#"  aria-expanded="false">
+                            <i [class]="item.icon"></i>
+                            <span class="hide-menu">
+                                {{ item.title }}
+                            </span>
+                        </a>
+                        <ng-container *ngFor="let subMenuItem of item.submenu">
+                            <ul *ngIf="subMenuItem.title" aria-expanded="false" class="collapse">
+                                <li>
+                                    <a [routerLink]="subMenuItem.url" routerLinkActive="active"
+                                        [routerLinkActiveOptions]="{ exact: true }"> {{ subMenuItem.title }} 
+                                    </a>
+                                </li>
+                            </ul>
+                        </ng-container>
+                    </li>
+                </ng-container>
+            </ul>
+        </nav>
+    </div>
+</aside>
